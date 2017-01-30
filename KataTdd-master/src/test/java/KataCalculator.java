@@ -31,5 +31,11 @@ public class KataCalculator {
 		Assert.assertEquals(1, result);
 	}
 	
+	@Test
+	public void twoStringShouldReturn2(){
+		Calculator calculator = new Calculator();
+		int result = calculator.Add("2");
+		Assert.assertEquals(2, result);
+	}
 	
 }
