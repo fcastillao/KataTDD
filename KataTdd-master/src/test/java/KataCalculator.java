@@ -11,7 +11,7 @@ public class KataCalculator {
 	}
 	
 	@Test
-	public void fiveStringShouldReturn1(){
+	public void fiveStringShouldReturn5(){
 		Calculator calculator = new Calculator();
 		int result = calculator.Add("5");
 		Assert.assertEquals(5, result);
