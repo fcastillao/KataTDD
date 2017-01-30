@@ -50,4 +50,18 @@ public class KataCalculator {
 		int result = calculator.Add("6");
 		Assert.assertEquals(6, result);
 	}
+	
+	//pruebas de dos numeros
+	@Test 
+	public void dosMasDosEs4(){
+		Calculator calculator = new Calculator();
+		int result = calculator.Add("2,2");
+		Assert.assertEquals(4, result);
+	}
+	@Test 
+	public void TresMasTresEs6(){
+		Calculator calculator = new Calculator();
+		int result = calculator.Add("3,3");
+		Assert.assertEquals(6, result);
+	}
 }

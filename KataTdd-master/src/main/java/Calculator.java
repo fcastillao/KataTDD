@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Calculator {
 
@@ -5,6 +8,7 @@ public class Calculator {
 		if (numbers.equals("")) {
 			return 0;	
 		} else {
+			
 			return Integer.parseInt(numbers);
 		}
 		
