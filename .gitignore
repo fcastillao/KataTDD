@@ -91,3 +91,6 @@ local.properties
 .recommenders/
 
 # End of https://www.gitignore.io/api/maven,windows,eclipse
+/desktop.ini
+/Zoom_launcher.exe
+/DellSystemDetectLauncher.Application

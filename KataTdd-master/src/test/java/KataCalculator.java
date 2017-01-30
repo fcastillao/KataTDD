@@ -37,5 +37,17 @@ public class KataCalculator {
 		int result = calculator.Add("2");
 		Assert.assertEquals(2, result);
 	}
+	@Test
+	public void fourStringShouldReturn4(){
+		Calculator calculator = new Calculator();
+		int result = calculator.Add("4");
+		Assert.assertEquals(4, result);
+	}
 	
+	@Test
+	public void sixStringShouldReturn6(){
+		Calculator calculator = new Calculator();
+		int result = calculator.Add("6");
+		Assert.assertEquals(6, result);
+	}
 }
