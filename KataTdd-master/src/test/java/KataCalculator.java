@@ -64,4 +64,18 @@ public class KataCalculator {
 		int result = calculator.Add("3,3");
 		Assert.assertEquals(6, result);
 	}
+	//tresnumeros
+	@Test 
+	public void dosDosCuatroEs8(){
+		Calculator calculator = new Calculator();
+		int result = calculator.Add("2,2,4");
+		Assert.assertEquals(8, result);
+	}
+	
+	@Test 
+	public void sieteMenos3Mas1Es5(){
+		Calculator calculator = new Calculator();
+		int result = calculator.Add("7,-3,1");
+		Assert.assertEquals(5, result);
+	}
 }
